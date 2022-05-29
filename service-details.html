@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Harisdev</title>
+    <meta name="robots" content="noindex, follow" />
+    
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msapplication-navbutton-color" content="#2a2c39">
+    <meta name="theme-color" content="#2a2c39">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#2a2c39">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
+
+    <!-- CSS
+    ============================================ -->
+
+    <!-- Vendor CSS (Contain Bootstrap, Icon Fonts) -->
+    <!-- <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" /> -->
+    <link rel="stylesheet" href="icofont.min.css" /> 
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+    <!-- Plugin CSS (Global Plugins Files) -->
+    <!-- <link rel="stylesheet" href="assets/css/plugins/animate.css">
+    <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/venobox.min.css" /> -->
+
+    <!-- Style CSS -->
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+    <!-- <link rel="stylesheet" href="myProjects/webProject/icofont/css/icofont.min.css"> -->
+    <!-- bootstrap icon link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!-- Minify Version -->
+    <link rel="stylesheet" href="css/vendor.min.css">
+    <link rel="stylesheet" href="css/plugins.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <!-- google icons cdn link -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+
+<body>
+
+    <main class="main-wrapper">
+        <!-- .....:::::: Start Header Section :::::.... -->
+        <header class="header-section sticky-header d-none d-lg-block">
+            <div class="header-wrapper">
+                <div class="container">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col">
+                            <!-- Start Header Logo -->
+                            <a href="index.html" class="header-logo ">
+                                <img src="img/113354cc1683318788f8aeb3fb4e31304.png" alt="" style="width:70px; height:80px;">
+                            </a>
+                            <!-- End Header Logo -->
+                        </div>
+                        <div class="col-auto">
+                            <!-- Start Header Menu -->
+                            <ul class="header-nav">
+                                <li><a href="index.html">Home</a></li>
+                                <li class="has-dropdown">
+                                    <a href="service-list.html">Service <i class="fa fa-angle-down"></i></a>
+                                    <ul class="submenu">
+                                        <li><a href="service-list.html">Services</a></li>
+                                        <li><a href="service-details.html">Service Details</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-dropdown">
+                                    <a href="blog-list.html">Blog<i class="fa fa-angle-down"></i></a>
+                                    <ul class="submenu">
+                                        <li><a href="blog-list.html">Blog List </a></li>
+                                        <li><a href="blog-details.html">Blog Details </a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-dropdown">
+                                    <a href="#">Pages <i class="fa fa-angle-down"></i></a>
+                                    <ul class="submenu">
+                                        <li><a href="about.html">About Us</a></li>
+                                    <li><a href="project-list.html">Project</a></li>
+                                    <li><a href="project-details.html">Project Details</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                            <!-- End Header Menu -->
+                        </div>
+                        <div class="col">
+                            <div class="header-btn-link text-end">
+                               <a href="contact.html" class="btn btn-sm btn-outline-one icon-space-left">Hire Me <i class="fa fa-angle-double-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- .....:::::: End Header Section :::::.... -->
+
+        <!-- .....:::::: Start Mobile Header Section :::::.... -->
+        <div class="mobile-header d-block d-lg-none sticky">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col">
+                        <div class="mobile-logo">
+                            <a href="index.html"><img src="img/113354cc1683318788f8aeb3fb4e31304.png" alt="" style="width:40px; height:44px" ></a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mobile-action-link text-end">
+                            <a href="#mobile-menu-offcanvas" class="offcanvas-toggle offside-menu"><i class="fa fa-bars"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- .....:::::: Start MobileHeader Section :::::.... -->
+
+        <!--  Start Offcanvas Mobile Menu Section -->
+        <div id="mobile-menu-offcanvas" class="offcanvas offcanvas-rightside offcanvas-mobile-menu-section">
+            <!-- Start Offcanvas Header -->
+            <div class="offcanvas-header text-end">
+                <button class="offcanvas-close"><i class="material-icons" style="margin-top:6px">close</i></button>
+            </div> <!-- End Offcanvas Header -->
+            <!-- Start Offcanvas Mobile Menu Wrapper -->
+            <div class="offcanvas-mobile-menu-wrapper">
+                <!-- Start Mobile Menu  -->
+                <div class="mobile-menu-bottom">
+                    <!-- Start Mobile Menu Nav -->
+                    <div class="offcanvas-menu">
+                        <ul>
+                            <li>
+                                <a href="index.html"><span>Home</span></a>
+                            </li>
+                            <li>
+                                <a href="#"><span>Services</span></a>
+                                <ul class="mobile-sub-menu">
+                                    <li><a href="service-list.html">Service List</a></li>
+                                    <li><a href="service-details.html">Service Details</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><span>Blog</span></a>
+                                <ul class="mobile-sub-menu">
+                                    <li><a href="blog-list.html">Blog List</a></li>
+                                    <li><a href="blog-details.html">Blog Details </a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><span>Pages</span></a>
+                                <ul class="mobile-sub-menu">
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="project-list.html">Project</a></li>
+                                    <li><a href="project-details.html">Project Details</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="contact.html"><span>Contact</span></a>
+                            </li>
+                        </ul>
+                    </div> <!-- End Mobile Menu Nav -->
+                </div> <!-- End Mobile Menu -->
+
+                <!-- Start Mobile contact Info -->
+                <div class="mobile-contact-info text-center">
+                    <ul class="social-link">
+                        <li><a target="_blank" href="https://www.linkedin.com/in/haris-khan-4aba42229/"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                        <li><a target="_blank" href="https://github.com/codemystory"><i class="fa fa-github"></i></a>
+                        </li>
+                        <li><a href="https://www.youtube.com/channel/UCeQSZl54UyJKrscdntfxc5g" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+                <!-- End Mobile contact Info -->
+
+            </div> <!-- End Offcanvas Mobile Menu Wrapper -->
+        </div>
+        <!-- ...:::: End Offcanvas Mobile Menu Section:::... -->
+
+        <!-- Offcanvas Overlay -->
+        <div class="offcanvas-overlay"></div>
+
+        <!-- ...::: Start Breadcrumb Section :::... -->
+        <div class="breadcrumb-section section-bg overflow-hidden pos-relative">
+            <div class="breadcrumb-shape-top-left"></div>
+            <div class="breadcrumb-shape-bottom-right"></div>
+            <div class="breadcrumb-box">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="breadcrumb-content">
+                                <h2 class="title">Services Details</h2>
+                                <ul class="breadcrumb-link">
+                                    <li><a href="service-list.html">Service</a></li>
+                                    <li class="active" aria-current="page">Service Details</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ...::: End Breadcrumb Section :::... -->
+
+        <!-- ...::: Start Service Details Section :::... -->
+        <div class="service-details-section section-gap-tb-165">
+            <div class="service-details-box">
+                <div class="container">
+                    <div class="row flex-lg-row flex-column-reverse">
+                        <div class="col-xl-4 col-lg-5">
+                            <!-- Start Sidebar Widget Area-->
+                            <div class="sidebar-widget-area">
+                                <!-- Start Sidebar Widget Single Item - Catagory Widgets -->
+                                <div class="sidebar-widget-single-area catagory-widgets">
+                                    <h3 class="title">Category</h3>
+                                    <ul class="widget-nav-list catagory-item-list">
+                                        <li><a href="#"><span class="text">UI/UX Design</span><span class="icon"><i class="fa fa-angle-right"></i></span></a></li>
+                                        <li><a href="#"><span class="text">Web Development</span><span class="icon"><i class="fa fa-angle-right"></i></span></a></li>
+                                        <li><a href="#"><span class="text">Brand Identity</span><span class="icon"><i class="fa fa-angle-right"></i></span></a></li>
+                                        <li><a href="#"><span class="text">Digital Marketing</span><span class="icon"><i class="fa fa-angle-right"></i></span></a></li>
+                                    </ul>
+                                </div>
+                                <!-- End Sidebar Widget Single Item - Catagory Widgets -->
+
+                                <!-- Start Sidebar Widget Single Item - Resume Widgets -->
+                                <div class="sidebar-widget-single-area resume-widgets">
+                                    <h3 class="title">Resume</h3>
+                                    <ul class="widget-nav-list resume-item-list">
+                                        <li><a href="cv in pdf/1.pdf" download="my resume"><span class="text">Get Resume.pdf</span><span class="icon"><i class="fa fa-file-pdf-o"></i></span></a></li>
+                                        <li><a href="cv in jpg/1.jpg" download="my resume"><span class="text">Get Resume.JPG</span><span class="icon"><i class="fa fa-file-image-o"></i></span></a></li>
+                                        <!-- <li><a href="#"><span class="text">Get Resume.ppt</span><span class="icon"><i class="fa fa-file-powerpoint-o"></i></span></a></li> -->
+                                    </ul>
+                                </div>
+                                <!-- End Sidebar Widget Single Item - Resume Widgets -->
+                            </div>
+                            <!-- End Sidebar Widget Area-->
+                        </div>
+                        <div class="col-xl-7 col-lg-7 offset-xl-1">
+                            <!-- Start Service Content Section -->
+                            <div class="service-content-section">
+                                <div class="content-hero-image">
+                                    <img src="img/service-details-hero-img.jpg" alt="">
+                                </div>
+                                <!-- Start Section Content -->
+                                <div class="default-content-style pos-relative">
+                                    <span class="section-tag">Responsive design</span>
+                                    <h2 class="title">Front-end web development can make your website more interactive and creative.</h2>
+                                    <p>Providing your website’s audience with optimal user experience is essential to meet the site’s objectives, whether it’s to increase sales, brand awareness or education. That’s why several stages of our website project process are dedicated to understanding and applying user experience principles, from requirement-gathering discovery workshops to user-centric design.
+
+                                        Creating user-facing functionality is the job of our expert in-house frontend development team.
+                                        
+                                        We hope this article sheds light on the crucial role the frontend developer plays in a website’s creation, their responsibilities, and the skills they apply to their projects.
+                                        
+                                        <h2 class="title">So, What’s a frontend developer?</h2>
+                                        As the name suggests, frontend developers are web developers, responsible for building the front-end of a site. Their job is to marry up the creative designs (aka how the website looks) with the technological requirements (a website’s core functionalities).
+                                        
+                                        Frontend developers integrate a series of designs, markup languages, frameworks and client-side scripts to create everything the user touches, from dropdown menus and sliders to animation, colours and fonts. Using the client’s selected content management system (CMS), they combine structure and design into a user-facing functionality.
+                                        
+                                       <h2 class="title"> Creativity meets innovation</h2>
+                                        Frontend development is where technology meets web design, bringing a site’s design to life and turning the project vision into a functioning website that users can interact with. They use code (HTML, JavaScript (JS) and/or CCS code) to break up web designs into individual components before the functionality is developed by the backend team.
+                                        
+                                        Building a website that provides a seamless user experience is essential to frontend development, and only functionalities that are flawless, quick and enjoyable across all browsers and platforms make the grade.</p>
+
+                                    <h3 class="sub-title">Why Choose Me?</h3>
+                                    <p>I believe that my experience with technology, specifically in the Front-end Web developement space, make me the best match for you. In my previous work, I was responsible for creating and designing a website for client. This required keeping client profiles updated and continuously posting information regarding upcoming events. I truly enjoyed what I was doing, which is what drew me to this position with you. I would love to bring the coding and content skills I learned there to this position.</p>
+
+                                    <ul class="content-list-item content-list-with-text">
+                                        <li>
+                                            <div class="left">
+                                                <h4 class="list-title">Leadership</h4>
+                                            </div>
+                                            <div class="right">
+                                                <p>Diligence. You have to be meticulous with details as a web designer. It takes diligence to design, build and maintain websites, using scripting languages, content creation tools, management tools and digital media. Most people do not realize how detailed the construction of a website is in its design.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="left">
+                                                <h4 class="list-title">Team Work</h4>
+                                            </div>
+                                            <div class="right">
+                                                <p>In a web development team, the position is known as a project manager, who's in control of all the processes throughout the entire project. Their work tasks include: Communication with a customer. Scheduling the project and providing time estimates.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="left">
+                                                <h4 class="list-title">Flexibility</h4>
+                                            </div>
+                                            <div class="right">
+                                                <p>As a full-time web developer, if you’re self-employed (I don’t really care for the term “freelancer” even though I may use it from time to time as a reference point), of course you can prescribe your own hours, but for the most part they’re locked in by habit after a while. I like to stay up late, so naturally, I would want to sleep a little later if I’ve worked until 3AM the previous night getting work finished. Setting structure in place helps immensely, however. </p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <p>It’s helped hugely to have 2 days set aside for interviews, new client onboarding and screening, with specific hours set aside for those activities each day. And of course, limited time for social media, even if it’s indirectly business related.</p>
+
+                                    <h3 class="sub-title">My Service Planing</h3>
+                                    <p>Lorem Ipsum is simply dummy text the printing and typesetting industry has been industry
+                                        standard dummy text ever since the scrambled electronic.</p>
+                                </div>
+                                <!-- End Section Content -->
+                            </div>
+                            <!-- End Service Content Section -->
+                            <!-- Start Pricing Area -->
+                            <ul class="pricing-area">
+                                <!-- Start Pricing Single Item -->
+                                <li class="pricing-single-item">
+                                    <div class="inner-shape inner-shape-top-right"></div>
+                                    <h4 class="name">Basic</h4>
+                                    <h2 class="value">$90</h2>
+                                    <span class="time">/mo</span>
+                                    <ul class="list-items">
+                                        <li>01 Landing page</li>
+                                        <li>08 Inner page</li>
+                                        <li>03 Months support</li>
+                                        <li>04 Revision</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-lg btn-outline-one">Get Started</a>
+                                </li>
+                                <!-- End Pricing Single Item -->
+                                <!-- Start Pricing Single Item -->
+                                <li class="pricing-single-item">
+                                    <div class="inner-shape inner-shape-top-right"></div>
+                                    <h4 class="name">Standard</h4>
+                                    <h2 class="value">$100</h2>
+                                    <span class="time">/mo</span>
+                                    <ul class="list-items">
+                                        <li>03 Landing Page</li>
+                                        <li>18 Inner page</li>
+                                        <li>07 Months support</li>
+                                        <li>Unlimited Revision</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-lg btn-outline-one">Get Started</a>
+                                </li>
+                                <!-- End Pricing Single Item -->
+                                <li class="pricing-single-item">
+                                    <div class="inner-shape inner-shape-top-right"></div>
+                                    <h4 class="name">Premium</h4>
+                                    <h2 class="value">$150</h2>
+                                    <span class="time">/mo</span>
+                                    <ul class="list-items">
+                                        <li>01 Landing page</li>
+                                        <li>08 Inner page</li>
+                                        <li>03 Months support</li>
+                                        <li>04 Revision</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-lg btn-outline-one">Get Started</a>
+                                </li>
+                                <li class="pricing-single-item">
+                                    <div class="inner-shape inner-shape-top-right"></div>
+                                    <h4 class="name">Extra Premium</h4>
+                                    <h2 class="value">$250</h2>
+                                    <span class="time">/mo</span>
+                                    <ul class="list-items">
+                                        <li>01 Landing page</li>
+                                        <li>08 Inner page</li>
+                                        <li>03 Months support</li>
+                                        <li>04 Revision</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-lg btn-outline-one">Get Started</a>
+                                </li>
+                            </ul>
+                            <!-- End Pricing Area -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ...::: End Service Details Section :::... -->
+
+        <!-- ...::: Start Company Logo Display Section :::... -->
+        <div class="company-logo-display  section-bg-2  section-gap-tb-165">
+            <div class="company-logo-display-box">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <!-- Start Section Content -->
+                            <div class="section-content pos-relative">
+                                <span class="section-tag">Favourite Clients</span>
+                                <h2 class="section-title">Work With Trusted Comapny.</h2>
+                            </div>
+                            <!-- End Section Content -->
+                        </div>
+                    </div>
+
+                    <div class="company-logo-display-wrapper">
+                        <div class="row">
+                            <div class="col">
+                                <div class="company-logo-display-slider">
+                                    <!-- Slider main container -->
+                                    <div class="swiper-container">
+                                        <!-- Additional required wrapper -->
+                                        <div class="swiper-wrapper">
+                                            <!-- Start Company Logo Slider Single Item -->
+                                            <div class="company-logo-single-item swiper-slide">
+                                                <a href="#" class="image">
+                                                    <img src="img/company-logo-1.png" alt="">
+                                                    <img src="img/company-logo-1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <!-- End Company Logo Slider Single Item -->
+                                            <!-- Start Company Logo Slider Single Item -->
+                                            <div class="company-logo-single-item swiper-slide">
+                                                <a href="#" class="image">
+                                                    <img src="img/company-logo-2.png" alt="">
+                                                    <img src="img/company-logo-2.png" alt="">
+                                                </a>
+                                            </div>
+                                            <!-- End Company Logo Slider Single Item -->
+                                            <!-- Start Company Logo Slider Single Item -->
+                                            <div class="company-logo-single-item swiper-slide">
+                                                <a href="#" class="image">
+                                                    <img src="img/company-logo-3.png" alt="">
+                                                    <img src="img/company-logo-3.png" alt="">
+                                                </a>
+                                            </div>
+                                            <!-- End Company Logo Slider Single Item -->
+                                            <!-- Start Company Logo Slider Single Item -->
+                                            <div class="company-logo-single-item swiper-slide">
+                                                <a href="#" class="image">
+                                                    <img src="img/company-logo-4.png" alt="">
+                                                    <img src="img/company-logo-4.png" alt="">
+                                                </a>
+                                            </div>
+                                            <!-- End Company Logo Slider Single Item -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ...::: End Company Logo Display Section :::... -->
+
+          <!-- ...::: Start Footer Section :::... -->
+          <footer class="footer-section section-bg overflow-hidden pos-relative">
+            <div class="footer-inner-shape-top-left"></div>
+            <div class="footer-inner-shape-top-right"></div>
+            <div class="footer-section-top section-gap-t-165">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <!-- Start Section Content -->
+                            <div class="section-content pos-relative text-center">
+                                <span class="section-tag">Get Latest Updates</span>
+                                <h2 class="section-title">Subscribe For Newsletter</h2>
+                            </div>
+                            <!-- End Section Content -->
+                        </div>
+                    </div>
+                    <div class="footer-top-wrapper text-center">
+                        <div class="row">
+                            <div class="col-12">
+                                <form action="#" class="footer-newsletter">
+                                    <input type="email" placeholder="john@example.com">
+                                    <button class="submit-btn" type="submit">Subscribe Now</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-center section-gap-tb-165">
+                <div class="container">
+                    <div class="row justify-content-between align-items-center mb-n5">
+                        <div class="col-auto mb-5">
+                            <!-- Start Single Footer Info -->
+                            <div class="footer-single-info">
+                                <a href="tel:+923239112233" class="info-box">
+                                    <span class="icon"><i class="fa fa-phone"></i></span>
+                                    <span class="text">+92 323 9112233</span>
+                                </a>
+                            </div>
+                            <!-- Start Single Footer Info -->
+                        </div>
+                        <div class="col-auto mb-5">
+                            <!-- Start Single Footer Info -->
+                            <div class="footer-single-info">
+                                <a href="mailto:developewithharis@gmail.com" class="info-box">
+                                    <span class="icon"><i class="fa fa-envelope-open"></i></span>
+                                    <span class="text">developewitharis@gmail.com</span>
+                                </a>
+                            </div>
+                            <!-- Start Single Footer Info -->
+                        </div>
+                        <div class="col-auto mb-5">
+                            <!-- Start Single Footer Info -->
+                            <div class="footer-single-info">
+                                <ul class="social-link">
+                                    <li><a href="https://github.com/codemystory" target="_blank"><i class="fa fa-github"></i></a></li>
+                                    <li><a href="https://www.youtube.com/channel/UCeQSZl54UyJKrscdntfxc5g" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/haris-khan-4aba42229/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                            <!-- Start Single Footer Info -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row justify-content-center justify-content-md-between align-items-center flex-column-reverse flex-md-row">
+                        <div class="col-auto">
+                            <div class="footer-copyright">
+                                <p class="copyright-text">&copy; 2022 <a href="index.html">harisdev</a> Made  by <a href="index.html" target="_blank">Haris Khan</a> </p>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <a href="index.html" class="footer-logo">
+                                <div class="logo">
+                                    <img src="img/113354cc1683318788f8aeb3fb4e31304.png" alt="" height="70px" width="60px">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- ...::: End Footer Section :::... -->
+
+        <!-- material-scrolltop button -->
+        <button class="material-scrolltop" type="button"><i style="color:white; font-size:37px" class="fa fa-angle-up"></i></button>
+    </main>
+
+    <!-- Global Vendor, plugins JS -->
+
+    <!-- JS Files
+    ============================================ -->
+    <!-- Global Vendor, plugins JS -->
+
+    <!-- Vendor JS -->
+    <!-- <script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script> -->
+    
+    <!--Plugins JS-->
+    <!-- <script src="assets/js/plugins/swiper-bundle.min.js"></script>
+    <script src="assets/js/plugins/jquery.appear.min.js"></script>
+    <script src="assets/js/plugins/venobox.min.js"></script>
+    <script src="assets/js/plugins/jquery.waypoints.js"></script>
+    <script src="assets/js/plugins/images-loaded.min.js"></script>
+    <script src="assets/js/plugins/isotope.pkgd.min.js"></script>
+    <script src="assets/js/plugins/counter.js"></script>
+    <script src="assets/js/plugins/ajax-mail.js"></script>
+    <script src="assets/js/plugins/material-scrolltop.js"></script> -->
+
+    <!-- Minify Version -->
+    <script src="js/vendor.min.js"></script>
+    <script src="js/plugins.min.js"></script>
+    <script src="https://use.fontawesome.com/ea29d6119c.js"></script>
+    <!--Main JS (Common Activation Codes)-->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
